@@ -1,0 +1,15 @@
+body {
+    background-color: aquamarine;
+}
+* {
+    border: 2px groove red;
+    margin: 3px;
+}
+.bottle {
+    display: flex;
+    flex-flow: row wrap;
+}
+.bottle div {
+    width: 10vh;
+    height: 10vh;
+}
