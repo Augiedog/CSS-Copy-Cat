@@ -13,3 +13,25 @@ body {
     width: 10vh;
     height: 10vh;
 }
+/* Navigation Bar */
+nav { 
+    background: white;
+    margin: auto;
+    border-top: 1px solid #c1c1c1;
+    border-bottom: 1px solid #c1c1c1;
+    padding: 5px 0;
+    z-index: 1;
+}
+nav ul {
+    margin: 0em;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    padding: 0 .5em;
+}
+nav a {
+    font-size: .75em;
+    color: #777;
+    font-family: Roboto Slab;
+}
