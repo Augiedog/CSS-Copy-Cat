@@ -1,18 +1,44 @@
 body {
-    background-color: aquamarine;
+    background-color: whitesmoke;
 }
-* {
+/* * {
     border: 2px groove red;
-    margin: 3px;
-}
-.bottle {
+ } */
+.headsUp {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-around;
 }
-.bottle div {
+main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.headsUp img {
+    border-radius: 50px;
+    width: 100px;
+}
+.headsUp img:hover {
+    flex-grow: 3;
+}
+.headsUp div {
     width: 10vh;
     height: 10vh;
 }
+.navbar-brand {
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    fill: rgb(241, 100, 30);
+}
+main div {
+    margin: auto;
+}
+header, footer {
+    width: 90%;
+    margin: auto;
+    min-height: 25vh;
+}
+
 /* Navigation Bar */
 nav { 
     background: white;
@@ -34,4 +60,8 @@ nav a {
     font-size: .75em;
     color: #777;
     font-family: Roboto Slab;
+    text-decoration: none;
+}
+nav a:hover {
+    color: red;
 }
